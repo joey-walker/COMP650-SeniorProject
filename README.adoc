@@ -29,18 +29,27 @@ Sarthak Khatiwada
 === Instructions:
 
 *Set up*
+
 1.A.  If Deep or Mentu, fork this repository and clone your fork.
+
 1.B.  Otherwise, Clone this repository. `git clone https://github.com/joey-walker/COMP650-SeniorProject.git`
+
 2.  To start your development environment, enter the COMP650-SeniorProject directory. `cd Comp650-SeniorProject`
+
 3.  `vagrant up`
+
 4.  After vagrant initializes, do `vagrant ssh` to login.
+
 5.  Optional - become (G)root `sudo -s`.  Otherwise you may need to have sudo before most git commands.
 
 *To install*
+
 1. Enter the git directory we cloned in `cd git`
+
 2. type `make install`
 
 *To switch git versions in vagrant*
+
 >Ask Prof. Joey (cause I'm lazy), probably some meddling with the PATH.
 
 *Git instructions for fetching, merging, committing ,and pushing work*
