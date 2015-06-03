@@ -1,29 +1,47 @@
-= Senior project COMP650 and Open Source COMP406 Readme
+= Senior project and Open Source Readme
+
 == Git Tutor
+
 === Version 0.1.0
+
 === Senior Project Group:
+
 Joseph Walker
+
 Chaskarandeep Singh
+
 Deep Patel
 
+
+
 == Git command line Senior Project:
+
 Contributors - 
+
 Joseph Walker
+
 Chaskarandeep Singh
+
 Deep Patel
+
 Ori Maci
+
 Sarthak Khatiwada
 
 Instructions:
 
 
 
-
 == Git Gui Senior Project:
+
 Contributors - 
+
 Joseph Walker
+
 Chaskarandeep Singh
+
 Deep Patel
+
 
 
 Instructions:
