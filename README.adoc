@@ -55,36 +55,24 @@ so please do not delete the branch after pull requests.
 
 These are the available remotes:
 
-`
+----
 deep    https://github.com/deeppatel824/git.git (fetch)
-
 deep    https://github.com/deeppatel824/git.git (push)
-
 joey    https://github.com/joey-walker/git.git (fetch)
-
 joey    https://github.com/joey-walker/git.git (push)
-
 mentu   https://github.com/chaskaransingh/git.git (fetch)
-
 mentu   https://github.com/chaskaransingh/git.git (push)
-
 ori     https://github.com/OzzyOrc/git.git (fetch)
-
 ori     https://github.com/OzzyOrc/git.git (push)
-
 origin  https://github.com/joey-walker/git.git (fetch)
-
 origin  https://github.com/joey-walker/git.git (push)
-
 sarthak https://github.com/sarthakcfc/git.git (fetch)
-
 sarthak https://github.com/sarthakcfc/git.git (push)
-
 upstream        https://github.com/git/git.git (fetch)
+upstream        https://github.com/git/git.git (push)
+----
 
-upstream        https://github.com/git/git.git (push) 
-`
-also available by typing `git remote -v`
+Also available by typing `git remote -v`
 
 *Fetching and merging:*
 
@@ -100,17 +88,17 @@ Then grab commits from our central git repository for this group's commits.
 
 2. `git merge origin/master`
 
-Fix any merge conflicts from here on before continuing work.
+Fix any merge conflicts from here on before continuing to do work.
 
 *Adding, committing, pushing*
 
-1. `git add . (or specific files/directories instead of .)`
+1. `git add .` (or specific files/directories instead of .)
 
 2. `git commit -m "message here"`
 
 Push by doing the following
 
-1. `git push your-name-here`
+1. `git push your-name-here` find your name in the remotes (i.e mentu would do `git push mentu`)
 
 If you cloned from git the repository.  I recommend switching the default view on Github to the senior-dev branch.
 
