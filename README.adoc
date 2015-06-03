@@ -6,33 +6,27 @@
 
 === Senior Project Group:
 
-Joseph Walker
+Joseph Walker, Chaskarandeep Singh,Deep Patel
 
-Chaskarandeep Singh
+== Rules:
 
-Deep Patel
+1. Please do not complete your own pull requests if there is a large amount of commits.  Those pull requests should be reviewed by a second group member.
+
+2. Commit and Push often.
 
 == Git command line Senior Project:
 
 === Contributors - 
 
-Joseph Walker
-
-Chaskarandeep Singh
-
-Deep Patel
-
-Ori Maci
-
-Sarthak Khatiwada
+Joseph Walker, Chaskarandeep Singh, Deep Patel, Ori Maci, Sarthak Khatiwada
 
 === Instructions:
 
 *Set up*
 
-1.A.  If Deep or Mentu, fork this repository and clone your fork.
+0.  If Deep or Mentu, fork this repository and clone your fork.
 
-1.B.  Otherwise, Clone this repository. `git clone https://github.com/joey-walker/COMP650-SeniorProject.git`
+1.  Otherwise, Clone this repository. `git clone https://github.com/joey-walker/COMP650-SeniorProject.git`
 
 2.  To start your development environment, enter the COMP650-SeniorProject directory. `cd Comp650-SeniorProject`
 
@@ -40,7 +34,7 @@ Sarthak Khatiwada
 
 4.  After vagrant initializes, do `vagrant ssh` to login.
 
-5.  Optional - become (G)root `sudo -s`.  Otherwise you may need to have sudo before most git commands.
+5.  Optional - become (G)root `sudo -s`.  Otherwise you may need to have sudo before most commands.
 
 *To install*
 
@@ -54,15 +48,14 @@ Sarthak Khatiwada
 
 *Git instructions for fetching, merging, committing ,and pushing work*
 
+
+
+
 == Git Gui Senior Project:
 
 === Contributors - 
 
-Joseph Walker
-
-Chaskarandeep Singh
-
-Deep Patel
+Joseph Walker, Chaskarandeep Singh, Deep Patel
 
 === Instructions:
 
