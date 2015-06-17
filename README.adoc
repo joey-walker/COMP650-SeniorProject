@@ -74,6 +74,10 @@ upstream        https://github.com/git/git.git (push)
 
 Also available by typing `git remote -v`
 
+Adding the upstream remote:
+
+git remote add upstream https://github.com/git/git.git
+
 *Fetching and merging:*
 
 At the start of doing any form of work, first grab commits from the official git repository:
@@ -87,6 +91,10 @@ Then grab commits from our central git repository for this group's commits.
 1. `git fetch origin`
 
 2. `git merge origin/master`
+
+Switch to the senior-dev branch 
+
+git checkout senior-dev
 
 Fix any merge conflicts from here on before continuing to do work.
 
