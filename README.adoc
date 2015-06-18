@@ -139,9 +139,6 @@ https://git-scm.com/doc[Regular git documentation]
 
 http://www.shellcheck.net/[help for the creation of shell scripts]
 
-
-Finally:
-
 *submitting our work to git:*
 
 ftp://www.kernel.org/pub/software/scm/git/docs/SubmittingPatches
