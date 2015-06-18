@@ -125,13 +125,13 @@ If you cloned from git the repository.  I recommend switching the default view o
 
 === Important documentation
 
-How to add an extension onto git:
+*How to add an extension onto git:*
 
 ftp://www.kernel.org/pub/software/scm/git/docs/technical/api-builtin.html
 
 https://github.com/joey-walker/git/blob/senior-dev/Documentation/howto/new-command.txt[more info]
 
-Directory to other documentation on git:
+*Directory to other documentation on git:*
 
 ftp://www.kernel.org/pub/software/scm/git/docs/
 
@@ -142,14 +142,14 @@ http://www.shellcheck.net/[help for the creation of shell scripts]
 
 Finally:
 
-submitting our work to git:
+*submitting our work to git:*
 
 ftp://www.kernel.org/pub/software/scm/git/docs/SubmittingPatches
 
 https://github.com/joey-walker/git/blob/senior-dev/Documentation/SubmittingPatches[more info]
 
 
-===Git tutor struction
+=== Git tutor structure
 
 more to come
 
