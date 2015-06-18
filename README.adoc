@@ -46,7 +46,14 @@ Joseph Walker, Chaskarandeep Singh, Deep Patel, Ori Maci, Sarthak Khatiwada
 
 *To switch git versions in vagrant*
 
->Ask Prof. Joey (cause I'm lazy), probably some meddling with the PATH.
+Current way:
+
+1. type `which git` to see where git is currently installed
+2. `rm /usr/bin/git/` <- remore from default location.
+3. `export PATH=$PATH:/home/vagrant/bin`
+
+All done.
+
 
 === Git instructions for fetching, merging, and pushing work
 
@@ -92,11 +99,13 @@ Then grab commits from our central git repository for this group's commits.
 
 2. `git merge origin/master`
 
+Fix any merge conflicts from here on before continuing to do work.
+
+*Ensure on the senior-dev branch:*
+
 Switch to the senior-dev branch 
 
-git checkout senior-dev
-
-Fix any merge conflicts from here on before continuing to do work.
+1. `git checkout senior-dev`
 
 *Adding, committing, pushing*
 
@@ -113,6 +122,31 @@ If you cloned from git the repository.  I recommend switching the default view o
 *Pull Requests*
 
 1.  To submit work, do a pull request at https://github.com/joey-walker/git .  Go to pull requests and confirm merge, or wait till someone merges it in for you.
+
+=== Important documentation
+
+
+ftp://www.kernel.org/pub/software/scm/git/docs/technical/api-builtin.html[How to add an extension onto git]
+
+
+https://github.com/joey-walker/git/blob/senior-dev/Documentation/howto/new-command.txt[more info]
+
+
+ftp://www.kernel.org/pub/software/scm/git/docs/[Directory to other documentation on git]
+
+
+https://git-scm.com/doc[Regular git documentation]
+
+
+http://www.shellcheck.net/[help for the creation of shell scripts]
+
+
+Finally:
+
+ftp://www.kernel.org/pub/software/scm/git/docs/SubmittingPatches[submitting our work to git]
+
+
+https://github.com/joey-walker/git/blob/senior-dev/Documentation/SubmittingPatches [more info]
 
 == Git Gui Senior Project:
 

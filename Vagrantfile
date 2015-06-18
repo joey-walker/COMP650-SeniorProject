@@ -66,7 +66,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
 config.vm.provision "shell", inline: <<-SHELL
 sudo apt-get update
-sudo apt-get install git make curl  libcurl4-gnutls-dev libexpat1-dev gettext -y
+sudo apt-get install git make curl  libcurl4-gnutls-dev libexpat1-dev gettext vim -y
 git clone https://github.com/git/git.git
 cd git
 git remote rm origin
