@@ -157,6 +157,38 @@ http://linux.die.net/man/3/system[here]
 
 === Git tutor structure:
 
+
+
+Overall structure:
+
+ start point -> tutor.c which is in "built.in" 
+
+        Introductory message -> user prompt (Yes/No) -> Start? 
+
+		
+        Make a directory for master repository, change directory in, make the directory into a git repository.
+
+		
+        We need 2 repositories outside of us (one being origin, other is upstream)
+		
+		
+		Three repositories overall (Master (us), origin (meant for pushing), upstream (meant for fetching). 
+
+		
+        Create a dummy repository named upstream that contains all the dummy information (stuff you can fetch from and push)  
+
+		
+        Create remotes for origin and upstream 
+
+		
+        `git remote add "name" <directory path>`
+
+				
+        upstream-> (fetch/merge) 
+		
+		origin -> (push)
+
+		
 more to come
 
 == Git Gui Senior Project:
