@@ -146,7 +146,12 @@ ftp://www.kernel.org/pub/software/scm/git/docs/SubmittingPatches
 https://github.com/joey-walker/git/blob/senior-dev/Documentation/SubmittingPatches[more info]
 
 
-=== Git tutor structure
+*Git Tutor non-interactive tutorial created by Git themselves:*
+
+https://git-scm.com/docs/gittutorial[Git Tutorial]
+
+
+=== Git tutor structure:
 
 more to come
 
