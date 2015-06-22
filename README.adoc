@@ -150,6 +150,10 @@ https://github.com/joey-walker/git/blob/senior-dev/Documentation/SubmittingPatch
 
 https://git-scm.com/docs/gittutorial[Git Tutorial]
 
+*How to run commands via commandline through C:*
+
+http://linux.die.net/man/3/system[here]
+
 
 === Git tutor structure:
 
