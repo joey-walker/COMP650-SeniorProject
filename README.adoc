@@ -2,7 +2,7 @@
 
 == Git Tutor
 
-=== Version 0.3.0
+=== Version 0.5.0
 
 === Senior Project Group:
 
@@ -38,7 +38,29 @@ Joseph Walker, Chaskarandeep Singh, Deep Patel, Ori Maci, Sarthak Khatiwada
 
 7.  `vagrant suspend` when you are done working to suspend the VM.  `vagrant destroy` to destroy the VM itself.
 
-*To install*
+*To install for development environments*
+
+**Windows**
+
+1.  Download https://msysgit.github.io/ 
+
+2.  Install to C:\Users\<your name>\gitbuild
+
+3.  Delete the git folder within gitbuild (gitbuild\git)
+
+4.  Either clone our git version into gitbuild, or move the pre-existing git folder into gitbuild (C:\Users\<your name>\git into C:\Users\<your name>\gitbuild )
+
+5.  Execute msys.bat from the gitbuild folder.
+
+6.  cd into gitbuild/git
+
+7. type `make` and hit enter
+
+8.  if you see `common-cmds.h:19: error: 'N_' undeclared here (not in a function)` or something similar.  Edit commons-cmds.h and make sure that each N_ is on one line.  The ending quotation being on the second line, will break the make.
+
+9 Git tutor will be usable within ./git folder.  If want to be used anywhere, switch out the git version.  
+
+**Linux**
 
 1. Enter the git directory we cloned in `cd git`
 

@@ -1,0 +1,29 @@
+= Senior project and Open Source Readme
+
+== Git Tutor installation
+
+=== Version 0.1.0
+
+=== Instructions:
+
+
+==Linux :
+installation currently tested with ubuntu.
+
+Install dependencies:
+
+Ubuntu:
+
+sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \ libz-dev libssl-dev
+
+Debian: 
+
+sudo yum install curl-devel expat-devel gettext-devel \ openssl-devel zlib-devel
+
+1. clone https://github.com/joey-walker/git.git
+
+2. cd into the git directory , and do `make install`
+
+3. Switch git versions, to point to the new bin files located in the above directory from /git/.
+
+==Windows:
